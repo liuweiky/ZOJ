@@ -100,7 +100,7 @@ void gen_j(int k)
         return;
     }
 
-    if (!check())   // ¼ôÖ¦
+    if (!check())
         return;
 
     //printf("\n%d\n", k);

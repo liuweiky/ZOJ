@@ -11,7 +11,7 @@ My ZOJ solutions
 
 [Problem description](http://acm.zju.edu.cn/onlinejudge/showProblem.do?problemCode=1002)
 
-[C++ (Accepted)](https://github.com/Heliovic/ZOJ/blob/master/ZOJ_1002_Fire_Net/main.cpp)
+[C++ (Accepted)](https://github.com/Heliovic/ZOJ/blob/master/1002/main.cpp)
 
 ### 解题思路
 
