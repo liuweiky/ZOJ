@@ -1,13 +1,19 @@
 # ZOJ
 My ZOJ solutions
 
-## 1001 A + B Problem (AC)
-[ZOJ Problem Set - 1001](http://acm.zju.edu.cn/onlinejudge/showProblem.do?problemCode=1001)
+## 1001 A + B Problem
 
-练手热身题
+[Problem description](http://acm.zju.edu.cn/onlinejudge/showProblem.do?problemCode=1001)
 
-## 1002 Fire Net (AC)
-[ZOJ Problem Set - 1002](http://acm.zju.edu.cn/onlinejudge/showProblem.do?problemCode=1002)
+[C++ (Accepted)](https://github.com/Heliovic/ZOJ/blob/master/ZOJ_1001_A+B_Problem/main.cpp)
+
+## 1002 Fire Net
+
+[Problem description](http://acm.zju.edu.cn/onlinejudge/showProblem.do?problemCode=1002)
+
+[C++ (Accepted)](https://github.com/Heliovic/ZOJ/blob/master/ZOJ_1002_Fire_Net/main.cpp)
+
+### 解题思路
 
 递归回溯 + 剪枝。
 
@@ -22,3 +28,21 @@ My ZOJ solutions
 ```
 * 注意 debug 时使用 `print_map()`
 * 注意回溯法的**初始化**
+
+## 1004 Anagrams by Stack
+
+[Problem description](http://acm.zju.edu.cn/onlinejudge/showProblem.do?problemCode=1004)
+
+[C++ (Accepted)](https://github.com/Heliovic/ZOJ/blob/master/ZOJ_1004_Anagrams_by_Stack/main.cpp)
+
+### 解题思路
+
+DFS + stack。
+
+设置原字符串下标 src_ptr 和目标字符串下标 tgt_ptr。
+
+每次 DFS 递归时，作如下判断：
+
+1. 若 src_ptr 已达到原串末尾，且 tgt_ptr 已达到原串末尾，且栈内没有剩余元素，说明该序列已达到了一个可行解。
+2. 若栈不为空，且栈顶元素等于 tgt_ptr 所指的字符，则又有两种选择：将当前栈顶弹栈，tgt_ptr++，或将当前 src_ptr 所指元素入栈。（tgt_ptr < len，src_ptr < len）
+3. 若以上两条都不满足，则将 src_ptr 所指元素入栈。（src_ptr < len）
