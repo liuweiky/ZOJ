@@ -5,7 +5,7 @@ My ZOJ solutions
 
 [Problem description](http://acm.zju.edu.cn/onlinejudge/showProblem.do?problemCode=1001)
 
-[C++ (Accepted)](https://github.com/Heliovic/ZOJ/blob/master/ZOJ_1001_A+B_Problem/main.cpp)
+[C++ (Accepted)](https://github.com/Heliovic/ZOJ/blob/master/1001/main.cpp)
 
 ## 1002 Fire Net
 
