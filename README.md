@@ -33,7 +33,7 @@ My ZOJ solutions
 
 [Problem description](http://acm.zju.edu.cn/onlinejudge/showProblem.do?problemCode=1004)
 
-[C++ (Accepted)](https://github.com/Heliovic/ZOJ/blob/master/1004/main.cpp)
+[C++ (Accepted)](https://github.com/Heliovic/ZOJ/blob/master/ZOJ_1004_Anagrams_by_Stack/main.cpp)
 
 ### 解题思路
 
