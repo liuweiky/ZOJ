@@ -58,3 +58,13 @@ DFS + stack。
 模拟。
 
 倒水问题。用一个杯子装满，不断倒入另一个容积更大的杯子，容积更大的杯子装满时，则清空大杯子，如此循环，必会达到某个体积。
+
+## 1006 Do the Untwist
+
+[Problem description](http://acm.zju.edu.cn/onlinejudge/showProblem.do?problemCode=1006)
+
+[C++ (Accepted)](https://github.com/Heliovic/ZOJ/blob/master/1006/main.cpp)
+
+### 解题思路
+
+编码/译码。
