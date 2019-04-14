@@ -46,3 +46,15 @@ DFS + stack。
 1. 若 src_ptr 已达到原串末尾，且 tgt_ptr 已达到原串末尾，且栈内没有剩余元素，说明该序列已达到了一个可行解。
 2. 若栈不为空，且栈顶元素等于 tgt_ptr 所指的字符，则又有两种选择：将当前栈顶弹栈，tgt_ptr++，或将当前 src_ptr 所指元素入栈。（tgt_ptr < len，src_ptr < len）
 3. 若以上两条都不满足，则将 src_ptr 所指元素入栈。（src_ptr < len）
+
+## 1005 Jugs
+
+[Problem description](http://acm.zju.edu.cn/onlinejudge/showProblem.do?problemCode=1005)
+
+[C++ (Accepted)](https://github.com/Heliovic/ZOJ/blob/master/1005/main.cpp)
+
+### 解题思路
+
+模拟。
+
+倒水问题。用一个杯子装满，不断倒入另一个容积更大的杯子，容积更大的杯子装满时，则清空大杯子，如此循环，必会达到某个体积。
