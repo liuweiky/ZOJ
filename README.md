@@ -68,3 +68,17 @@ DFS + stack。
 ### 解题思路
 
 编码/译码。
+
+## 1007 Numerical Summation of a Series
+
+[Problem description](http://acm.zju.edu.cn/onlinejudge/showProblem.do?problemCode=1007)
+
+[C++ (Accepted)](https://github.com/Heliovic/ZOJ/blob/master/1007/main.cpp)
+
+### 解题思路
+
+数学计算。
+
+公式变形和确定计算到的最大 k 的过程如下：
+
+<img src = '1007/formula.jpg'/>
