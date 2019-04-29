@@ -82,3 +82,13 @@ DFS + stack。
 公式变形和确定计算到的最大 k 的过程如下：
 
 <img src = '1007/formula.jpg'/>
+
+## 1009 Enigma
+
+[Problem description](http://acm.zju.edu.cn/onlinejudge/showProblem.do?problemCode=1009)
+
+[C++ (Accepted)](https://github.com/Heliovic/ZOJ/blob/master/1009/main.cpp)
+
+### 解题思路
+
+模拟。
