@@ -92,3 +92,13 @@ DFS + stack。
 ### 解题思路
 
 模拟。
+
+## 1010 Area
+
+[Problem description](http://acm.zju.edu.cn/onlinejudge/showProblem.do?problemCode=1010)
+
+[C++ (Accepted)](https://github.com/Heliovic/ZOJ/blob/master/1010/main.cpp)
+
+### 解题思路
+
+图形学。求线段交点，求平面多边形所围成的面积。
